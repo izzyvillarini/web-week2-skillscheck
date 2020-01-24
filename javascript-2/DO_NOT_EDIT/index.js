@@ -13,8 +13,11 @@ if (lovesCode === true) {
 }
 
 poemGreeting.innerText = `Hello, ${name}!`
+let name = "Izzy";
 poemContentOne.innerText = `Today is the day, it's unlike any other. You are learning to code at the ripe age of ${age}, the perfect time to start! Now is the time to buckle down to make your mark.`
+let age = 18;
 poemContentTwo.innerText = `"${phrase}," you whisper to yourself ${!lovesCode ? 'but fear not as the journey is just beginning. With some hard work and dedication you will find yourself winning' : 'as you create something great'}!`
+let lovesCode = true;
 poemContentThree.innerText = `Project One is complete ✅ and now your knowledge is taking off like a rocket 🚀`
 //DO NOT EDIT CODE ABOVE
 //DO NOT EDIT CODE ABOVE
